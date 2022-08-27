@@ -1,0 +1,75 @@
+<section class="" style="background-color: #9a616d">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-xl-10">
+        <div class="card" style="border-radius: 1rem">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-5 d-none d-md-block">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                alt="login form"
+                class="img-fluid"
+                style="border-radius: 1rem 0 0 1rem"
+              />
+            </div>
+            <div class="col-md-6 col-lg-7 d-flex align-items-center">
+              <div class="card-body p-4 p-lg-5 text-black">
+                <form>
+                  <div class="d-flex align-items-center mb-3 pb-1">
+                    <img src="./assets/img/icon/logo3.png" width="50%" alt="" />
+                  </div>
+
+                  <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px">
+                    Login with mobile number
+                  </h5>
+
+                  <div class="form-outline mb-4">
+                    <input
+                      type="tel"
+                      name="mobile"
+                      id="mobile"
+                      class="form-control form-control-lg"
+                      placeholder="Enter Your Mobile Number"
+                    />
+                  </div>
+
+                  <div class="pt-1 mb-4 text-center">
+                    <button
+                      class="btn btn-success btn-lg btn-block"
+                      type="button"
+                      onclick="phoneAuth();"
+                    >
+                      Send OTP
+                    </button>
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <input
+                      type="tel"
+                      name="mobile"
+                      id="otp"
+                      class="form-control form-control-lg"
+                      placeholder="otp"
+                    />
+                  </div>
+
+                  <div class="pt-1 mb-4 text-center">
+                    <button
+                      class="btn btn-success btn-lg btn-block"
+                      type="button"
+                      onclick="codeverify();"
+                    >
+                      Verify OTP
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- API  -->

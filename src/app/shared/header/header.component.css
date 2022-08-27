@@ -1,0 +1,14 @@
+.sidemenu {
+  padding: 10px 0;
+  color: #696e77;
+  font-weight: 500;
+  outline: none;
+}
+
+.leftborder {
+  border-left: 2px solid #696e77;
+}
+
+.sidemenu:hover {
+  color: var(--primary);
+}
